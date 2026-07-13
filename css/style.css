@@ -1,1 +1,251 @@
+/* ==========================
+   GLOBAL STYLES
+========================== */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    color: #222;
+    background-color: #f8f9fb;
+}
+
+/* ==========================
+   HEADER
+========================== */
+
+header {
+    background: #003366;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+/* ==========================
+   NAVIGATION
+========================== */
+
+nav {
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 1rem 1.2rem;
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #003366;
+    color: white;
+}
+
+/* ==========================
+   MAIN CONTENT
+========================== */
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 3rem 2rem;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+section h2 {
+    font-family: Georgia, serif;
+    color: #003366;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 0.5rem;
+}
+
+/* ==========================
+   HERO SECTION
+========================== */
+
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 5px solid #003366;
+}
+
+.hero h2 {
+    border: none;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: auto;
+}
+
+/* ==========================
+   RESEARCH INTERESTS
+========================== */
+
+.research-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.research-item {
+    background: white;
+    padding: 1rem;
+    flex: 1;
+    min-width: 250px;
+    border-left: 5px solid #003366;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+/* ==========================
+   PUBLICATIONS
+========================== */
+
+.publication {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+.publication-title {
+    font-weight: bold;
+    color: #003366;
+}
+
+.publication-links a {
+    text-decoration: none;
+    margin-right: 1rem;
+    color: #0066cc;
+}
+
+.publication-links a:hover {
+    text-decoration: underline;
+}
+
+/* ==========================
+   COLLABORATORS
+========================== */
+
+.collaborator-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.collaborator-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+.collaborator-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+/* ==========================
+   BUTTONS
+========================== */
+
+.button {
+    display: inline-block;
+    background: #003366;
+    color: white;
+    padding: 0.8rem 1.4rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #0055aa;
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+/* ==========================
+   RESPONSIVE DESIGN
+========================== */
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav a {
+        text-align: center;
+        border-bottom: 1px solid #eee;
+    }
+
+    main {
+        padding: 2rem 1rem;
+    }
+
+    .hero img {
+        width: 180px;
+        height: 180px;
+    }
+}
