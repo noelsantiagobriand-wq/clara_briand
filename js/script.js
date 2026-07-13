@@ -13,13 +13,38 @@ function updateStats(visiblePapers){
         visiblePapers.length;
 
     document.getElementById("journalCount").textContent =
-        visiblePapers.filter(p=>p.dataset.type==="journal").length;
+        visiblePapers.filter(p => p.dataset.type === "journal").length;
 
     document.getElementById("preprintCount").textContent =
-        visiblePapers.filter(p=>p.dataset.type==="preprint").length;
+        visiblePapers.filter(p => p.dataset.type === "preprint").length;
 
     document.getElementById("paperNumber").textContent =
         visiblePapers.length;
+
+    // Count unique coauthors
+    const coauthors = new Set();
+
+    visiblePapers.forEach(paper => {
+
+        const authors = paper.querySelector(".paper-authors")
+            .textContent
+            .split(",");
+
+        authors.forEach(author => {
+
+            author = author.trim();
+
+            if (author !== "Clara Briand") {
+                coauthors.add(author);
+            }
+
+        });
+
+    });
+
+    document.getElementById("coauthorCount").textContent =
+        coauthors.size;
+
 }
 
 function updatePapers(){
