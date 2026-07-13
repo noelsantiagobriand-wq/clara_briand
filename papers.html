@@ -1,15 +1,15 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papers | Clara Briand</title>
 
-<title>Papers | Clara Briand</title>
-
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -17,163 +17,250 @@
 
 <header>
 
-<h1>Clara Briand</h1>
-
-<p>Department of Mathematics • University XYZ</p>
+    <h1>Clara Briand</h1>
+    <p>Department of Mathematics • University XYZ</p>
 
 </header>
 
 <nav>
 
-<ul>
-
-<li><a href="index.html">Home</a></li>
-<li><a href="papers.html">Papers</a></li>
-<li><a href="cv.html">CV</a></li>
-<li><a href="collaborators.html">Collaborators</a></li>
-<li><a href="contact.html">Contact</a></li>
-
-</ul>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="papers.html">Papers</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="collaborators.html">Collaborators</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
 
 </nav>
 
 <main>
 
-<div class="stats-grid">
+    <h2>Papers</h2>
 
-<div class="stat-card">
+    <p>
+        Below is a selection of published papers and preprints.
+        Use the search and filters to quickly find a paper.
+    </p>
 
-<div class="stat-number" id="paperCount">0</div>
+    <div class="paper-controls">
 
-<div class="stat-label">Papers</div>
+        <div class="paper-search">
 
-</div>
+            <input
+                type="text"
+                id="paperSearch"
+                placeholder="Search papers...">
 
-<div class="stat-card">
+        </div>
 
-<div class="stat-number" id="journalCount">0</div>
+        <div class="year-filters">
 
-<div class="stat-label">Journal</div>
+            <button class="filter-btn active" data-year="all">All</button>
+            <button class="filter-btn" data-year="2026">2026</button>
+            <button class="filter-btn" data-year="2025">2025</button>
+            <button class="filter-btn" data-year="2024">2024</button>
+            <button class="filter-btn" data-year="preprint">Preprints</button>
 
-</div>
+        </div>
 
-<div class="stat-card">
+        <select id="typeFilter">
 
-<div class="stat-number" id="preprintCount">0</div>
+            <option value="all">All Types</option>
+            <option value="journal">Journal</option>
+            <option value="preprint">Preprint</option>
+            <option value="conference">Conference</option>
+            <option value="book">Book Chapter</option>
 
-<div class="stat-label">Preprints</div>
+        </select>
 
-</div>
+        <select id="sortSelect">
 
-<div class="stat-card">
+            <option value="newest">Newest</option>
+            <option value="oldest">Oldest</option>
+            <option value="titleAZ">Title A–Z</option>
+            <option value="titleZA">Title Z–A</option>
 
-<div class="stat-number" id="coauthorCount">18</div>
-
-<div class="stat-label">Coauthors</div>
-
-</div>
-
-</div>
-    
-<h2>Papers</h2>
-
-<p>
-Below is a selection of published papers and preprints.
-Links to PDFs, arXiv versions, and BibTeX entries are provided where available.
-</p>
-<div class="paper-controls">
-
-    <div class="paper-search">
-
-        <input
-            type="text"
-            id="paperSearch"
-            placeholder="Search papers..."
-        >
+        </select>
 
     </div>
 
-    <div class="year-filters">
+    <div class="stats-grid">
 
-        <button class="filter-btn active" data-year="all">All</button>
+        <div class="stat-card">
 
-        <button class="filter-btn" data-year="2026">2026</button>
-        <!-- Add years as required -->
+            <div class="stat-number" id="paperCount">0</div>
+            <div class="stat-label">Papers</div>
 
-        <button class="filter-btn" data-year="preprint">Preprints</button>
+        </div>
+
+        <div class="stat-card">
+
+            <div class="stat-number" id="journalCount">0</div>
+            <div class="stat-label">Journal</div>
+
+        </div>
+
+        <div class="stat-card">
+
+            <div class="stat-number" id="preprintCount">0</div>
+            <div class="stat-label">Preprints</div>
+
+        </div>
+
+        <div class="stat-card">
+
+            <div class="stat-number" id="coauthorCount">18</div>
+            <div class="stat-label">Coauthors</div>
+
+        </div>
 
     </div>
 
-</div>
+    <div class="paper-count">
 
-<div class="paper-count">
+        Showing <span id="paperNumber">0</span> papers
 
-Showing <span id="paperNumber">0</span> papers
+    </div>
 
-</div>
-<h3 class="year-heading">2026</h3>
+    <!-- ================= 2026 ================= -->
 
-<div class="paper-card" data-year="2026" data-type="preprint">
+    <section class="paper-year">
 
-<div class="paper-title">
-Cats vs dogs. Who wins?</div>
+        <h3 class="year-heading">2026</h3>
 
-<div class="paper-authors">
-Clara Briand, Mike Twain
-</div>
+        <div class="paper-card"
+             data-year="2026"
+             data-type="preprint"
+             data-title="Cats vs Dogs. Who Wins?">
 
-<div class="paper-journal">
-Combinatorics
-</div>
+            <div class="paper-title">
+                Cats vs Dogs. Who Wins?
+            </div>
 
-<div class="paper-links">
+            <div class="paper-authors">
+                Clara Briand, Mike Twain
+            </div>
 
-<a href="#">PDF</a>
+            <div class="paper-journal">
+                arXiv Preprint
+            </div>
 
-<a href="#">DOI</a>
+            <div class="paper-links">
 
-<a href="#">arXiv</a>
+                <a href="#">PDF</a>
+                <a href="#">arXiv</a>
+                <a href="#">BibTeX</a>
 
-<a href="#">BibTeX</a>
+            </div>
 
-</div>
-</div>
+        </div>
 
-<div class="paper-card" data-year="2026" data-type="journal">
+        <div class="paper-card"
+             data-year="2026"
+             data-type="journal"
+             data-title="On Rational Points of Algebraic Varieties">
 
-<div class="paper-title">
-On Rational Points of Algebraic Varieties
-</div>
+            <div class="paper-title">
+                On Rational Points of Algebraic Varieties
+            </div>
 
-<div class="paper-authors">
-Clara Briand, John Smith
-</div>
+            <div class="paper-authors">
+                Clara Briand, John Smith
+            </div>
 
-<div class="paper-journal">
-Journal of Algebra, Vol. 510 (2026)
-</div>
+            <div class="paper-journal">
+                Journal of Algebra, Vol. 510 (2026)
+            </div>
 
-<div class="paper-links">
+            <div class="paper-links">
 
-<a href="#">PDF</a>
+                <a href="#">PDF</a>
+                <a href="#">DOI</a>
+                <a href="#">arXiv</a>
+                <a href="#">BibTeX</a>
 
-<a href="#">DOI</a>
+            </div>
 
-<a href="#">arXiv</a>
+        </div>
 
-<a href="#">BibTeX</a>
+    </section>
 
-</div>
+    <!-- ================= 2025 ================= -->
 
-</div>
+    <section class="paper-year">
 
-</div>
+        <h3 class="year-heading">2025</h3>
+
+        <div class="paper-card"
+             data-year="2025"
+             data-type="journal"
+             data-title="Graph Theory and Infinite Networks">
+
+            <div class="paper-title">
+                Graph Theory and Infinite Networks
+            </div>
+
+            <div class="paper-authors">
+                Clara Briand
+            </div>
+
+            <div class="paper-journal">
+                European Journal of Combinatorics (2025)
+            </div>
+
+            <div class="paper-links">
+
+                <a href="#">PDF</a>
+                <a href="#">DOI</a>
+                <a href="#">BibTeX</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= 2024 ================= -->
+
+    <section class="paper-year">
+
+        <h3 class="year-heading">2024</h3>
+
+        <div class="paper-card"
+             data-year="2024"
+             data-type="conference"
+             data-title="Enumerative Problems in Discrete Geometry">
+
+            <div class="paper-title">
+                Enumerative Problems in Discrete Geometry
+            </div>
+
+            <div class="paper-authors">
+                Clara Briand, Alice Cooper
+            </div>
+
+            <div class="paper-journal">
+                Proceedings of FPSAC 2024
+            </div>
+
+            <div class="paper-links">
+
+                <a href="#">PDF</a>
+                <a href="#">DOI</a>
+                <a href="#">BibTeX</a>
+
+            </div>
+
+        </div>
+
+    </section>
 
 </main>
 
 <footer>
 
-<p>© 2026 Clara Briand</p>
+    <p>© 2026 Clara Briand</p>
 
 </footer>
 
@@ -182,3 +269,4 @@ Journal of Algebra, Vol. 510 (2026)
 </body>
 
 </html>
+```
