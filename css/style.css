@@ -483,3 +483,70 @@ footer {
 
     text-decoration:underline;
 }
+
+/* ==========================
+   PAPERS FILTER
+========================== */
+
+.paper-controls{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.paper-search{
+    flex:1;
+    min-width:250px;
+}
+
+.paper-search input{
+    width:100%;
+    padding:10px 15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:1rem;
+}
+
+.year-filters{
+    display:flex;
+    gap:8px;
+    flex-wrap:wrap;
+}
+
+.filter-btn{
+
+    padding:8px 15px;
+
+    border:none;
+
+    border-radius:20px;
+
+    cursor:pointer;
+
+    background:#e5e5e5;
+
+    transition:.2s;
+}
+
+.filter-btn:hover{
+
+    background:#003366;
+
+    color:white;
+}
+
+.filter-btn.active{
+
+    background:#003366;
+
+    color:white;
+}
+
+.paper-count{
+
+    margin:20px 0;
+
+    color:#666;
+}
