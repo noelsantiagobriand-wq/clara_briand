@@ -1,1 +1,40 @@
+[
+    {
 
+        "title":"On Rational Points",
+
+        "authors":[
+            "Clara Briand",
+            "John Smith"
+        ],
+
+        "year":2026,
+
+        "type":"journal",
+
+        "journal":"Journal of Algebra",
+
+        "pdf":"...",
+
+        "doi":"...",
+
+        "arxiv":"..."
+
+    },
+
+    {
+
+        "title":"Cats vs Dogs",
+
+        "authors":[
+            "Clara Briand",
+            "Mike Twain"
+        ],
+
+        "year":2026,
+
+        "type":"preprint"
+
+    }
+
+]
