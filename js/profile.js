@@ -3,52 +3,105 @@ async function loadProfile() {
     const response = await fetch("data/profile.json");
     const profile = await response.json();
 
-    document.getElementById("name").textContent =
-        profile.name;
+    // ---------- Helper functions ----------
 
-    document.getElementById("subtitle").textContent =
-        `${profile.department} • ${profile.university}`;
+    function setText(id, value) {
 
-    document.title =
-        `Home | ${profile.name}`;
+        const element = document.getElementById(id);
 
-    document.getElementById("sidebarPhoto").src =
-        profile.photo;
+        if (element) {
+            element.textContent = value ?? "";
+        }
 
-    document.getElementById("sidebarPhoto").alt =
-        profile.name;
+    }
 
-    document.getElementById("sidebarName").textContent =
-        profile.name;
+    function setHTML(id, value) {
 
-    document.getElementById("sidebarTitle").textContent =
-        profile.title;
+        const element = document.getElementById(id);
 
-    document.getElementById("sidebarDepartment").textContent =
-        profile.department;
+        if (element) {
+            element.innerHTML = value;
+        }
 
-    document.getElementById("sidebarUniversity").textContent =
-        profile.university;
+    }
 
-    document.getElementById("sidebarEmail").innerHTML =
-        `<a href="mailto:${profile.email}">${profile.email}</a>`;
+    // ---------- Page title ----------
 
-    document.getElementById("sidebarOffice").textContent =
-        profile.office;
+    document.title = `Home | ${profile.name}`;
 
-    document.getElementById("welcomeText").textContent =
-        profile.welcome;
+    // ---------- Header ----------
 
-    document.getElementById("cvButton").href =
-        profile.cv;
+    setText("name", profile.name);
+    setText("subtitle",
+        `${profile.department} • ${profile.university}`);
 
-    // -------------------------
-    // Research Interests
-    // -------------------------
+    // ---------- Sidebar ----------
+
+    const photo = document.getElementById("sidebarPhoto");
+
+    if (photo) {
+
+        photo.src = profile.photo;
+        photo.alt = profile.name;
+
+    }
+
+    setText("sidebarName", profile.name);
+    setText("sidebarTitle", profile.title);
+    setText("sidebarDepartment", profile.department);
+    setText("sidebarUniversity", profile.university);
+    setText("sidebarOffice", profile.office);
+
+    setHTML(
+        "sidebarEmail",
+        `<a href="mailto:${profile.email}">${profile.email}</a>`
+    );
+
+    if (profile.orcid) {
+
+        setHTML(
+            "orcid",
+            `<a href="${profile.orcid}" target="_blank">ORCID</a>`
+        );
+
+    }
+
+    if (profile.scholar) {
+
+        setHTML(
+            "scholar",
+            `<a href="${profile.scholar}" target="_blank">Google Scholar</a>`
+        );
+
+    }
+
+    if (profile.github) {
+
+        setHTML(
+            "github",
+            `<a href="${profile.github}" target="_blank">GitHub</a>`
+        );
+
+    }
+
+    // ---------- Welcome ----------
+
+    setText("welcomeText", profile.welcome);
+
+    // ---------- Footer ----------
+
+    setText("footerName", profile.name);
+    setText("department", profile.department);
+    setText("university", profile.university);
+    setText("email", profile.email);
+
+    // ---------- Research Interests ----------
 
     const researchList = document.getElementById("researchList");
 
-    if (researchList) {
+    if (researchList && profile.research) {
+
+        researchList.innerHTML = "";
 
         profile.research.forEach(area => {
 
