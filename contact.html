@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Contact | Clara Briand</title>
+    <title>Contact</title>
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -16,9 +16,9 @@
 
 <header>
 
-    <h1>Clara Briand</h1>
+    <h1 id="name"></h1>
 
-    <p>Department of Mathematics • University XYZ</p>
+    <p id="subtitle"></p>
 
 </header>
 
@@ -41,56 +41,48 @@
     <h2>Contact</h2>
 
     <p>
-        I welcome enquiries regarding research collaborations,
-        seminar invitations, conferences, and graduate supervision.
-        The best way to contact me is by email.
+        I welcome your enquiries.
     </p>
 
     <div class="contact-grid">
-
-        <!-- Contact information -->
 
         <div class="contact-card">
 
             <h3>Contact Information</h3>
 
             <p>
+
                 <strong>Email</strong><br>
-                <a href="mailto:clara.briand@university.edu">
-                    clara.briand@university.edu
-                </a>
+
+                <span id="email"></span>
+
             </p>
 
             <p>
+
                 <strong>Department</strong><br>
-                Department of Mathematics
+
+                <span id="department"></span>
+
             </p>
 
             <p>
+
                 <strong>University</strong><br>
-                University XYZ
+
+                <span id="university"></span>
+
             </p>
 
             <p>
+
                 <strong>Office</strong><br>
-                Building A, Room 314
-            </p>
 
-            <p>
-                <strong>Office Hours</strong><br>
-                By appointment
-            </p>
+                <span id="office"></span>
 
-            <p>
-                <strong>Postal Address</strong><br>
-                Department of Mathematics<br>
-                University XYZ<br>
-                City, Country
             </p>
 
         </div>
-
-        <!-- Professional profiles -->
 
         <div class="contact-card">
 
@@ -99,47 +91,12 @@
             <ul class="profile-links">
 
                 <li>
-                    <a href="#" target="_blank">
-                        ORCID
-                    </a>
+                    <a id="orcid" target="_blank">ORCID</a>
                 </li>
 
                 <li>
-                    <a href="#" target="_blank">
-                        Google Scholar
-                    </a>
+                    <a id="scholar" target="_blank">Google Scholar</a>
                 </li>
-
-                <li>
-                    <a href="#" target="_blank">
-                        arXiv
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#" target="_blank">
-                        MathSciNet
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#" target="_blank">
-                        zbMATH
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#" target="_blank">
-                        GitHub
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#" target="_blank">
-                        LinkedIn
-                    </a>
-                </li>
-
             </ul>
 
         </div>
@@ -150,9 +107,11 @@
 
 <footer>
 
-    <p>&copy; 2026 Clara Briand</p>
+    <p id="footerText"></p>
 
 </footer>
+
+<script src="js/profile.js"></script>
 
 </body>
 
