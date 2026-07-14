@@ -42,23 +42,31 @@ async function loadProfile() {
     document.getElementById("cvButton").href =
         profile.cv;
 
+    // -------------------------
+    // Research Interests
+    // -------------------------
+
+    const researchList = document.getElementById("researchList");
+
+    if (researchList) {
+
+        profile.research.forEach(area => {
+
+            const card = document.createElement("div");
+
+            card.className = "research-item";
+
+            card.innerHTML = `
+                <h3>${area.title}</h3>
+                <p>${area.description}</p>
+            `;
+
+            researchList.appendChild(card);
+
+        });
+
+    }
+
 }
 
 loadProfile();
-
-const researchList = document.getElementById("researchList");
-
-profile.research.forEach(area => {
-
-    const card = document.createElement("div");
-
-    card.className = "research-item";
-
-    card.innerHTML = `
-        <h3>${area.title}</h3>
-        <p>${area.description}</p>
-    `;
-
-    researchList.appendChild(card);
-
-});
