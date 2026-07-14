@@ -19,7 +19,13 @@
     "github": "...",
 
     "research": [
-        "Algebraic Geometry for cats and kittens",
-        "Algebraic Geometry for dogs and doggies",
+    {
+        "title": "Algebraic Geometry for cats and kittens",
+        "description": "Study of what shapes cats have."
+    },
+    {
+        "title": "Algebraic Geometry for dogs and doggies",
+        "description": "Study of what shapes dogs have."
+    }
     ]
 }
