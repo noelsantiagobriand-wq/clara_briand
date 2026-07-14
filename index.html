@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Clara Briand | Mathematics</title>
+    <title id="name"> </title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
 <header>
-    <h1>Clara Briand</h1>
-    <p>Department of Mathematics • University XYZ</p>
+    <h1 id="name"></h1>
+    <p id="subtitle"></p>
 </header>
 
 <nav>
@@ -29,25 +29,25 @@
 
     <aside class="sidebar">
 
-        <img src="images/ninja.jpg" alt="Clara Briand">
+        <img <img id="sidebarPhoto" alt="name">
 
-        <h2>Clara Briand</h2>
+        <h2 id="sidebarName"></h2>
 
-        <h3>Professor of Mathematics</h3>
+        <h3 id="sidebarTitle"></h3>
 
         <ul class="profile-info">
 
             <li><strong>Department</strong><br>
-            Department of Mathematics</li>
+            <span id="sidebarDepartment"></span></li>
 
             <li><strong>University</strong><br>
-            University XYZ</li>
+            <span id="sidebarUniversity"></span></li>
 
             <li><strong>Email</strong><br>
-            xyz@university.edu</li>
+            <span id="sidebarEmail"></span></li>
 
             <li><strong>Office</strong><br>
-            Room 305, Paris</li>
+            <span id="sidebarOffice"></span></li>
 
             <li><strong>ORCID</strong><br>
             0000-0000-0000-0000</li>
@@ -68,12 +68,9 @@
 
             <h2>Welcome</h2>
 
-            <p>
-                I am Professor of Mathematics at the University XYZ.
-                My research is about...
-            </p>
+            <p id="welcomeText"></p>
 
-            <a class="button" href="documents/cv.pdf">
+            <a id="cvButton">
                 Download CV
             </a>
 
@@ -133,6 +130,6 @@
     <p>Last updated: July 2026</p>
 
 </footer>
-
+<script src="js/profile.js"></script>
 </body>
 </html>
