@@ -1,40 +1,803 @@
 [
-    {
-
-        "title":"On Rational Points",
-
-        "authors":[
-            "Clara Briand",
-            "John Smith"
-        ],
-
-        "year":2026,
-
-        "type":"journal",
-
-        "journal":"Journal of Algebra",
-
-        "pdf":"...",
-
-        "doi":"...",
-
-        "arxiv":"..."
-
+  {
+    "title": "The priority lattice",
+    "year": 2026,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Adrián Lillo"
+    ],
+    "venue": "Arxiv",
+    "description": "a novel lattice whose maximal chains are indexed by parking functions",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2603.28905"
     },
-
-    {
-
-        "title":"Cats vs Dogs",
-
-        "authors":[
-            "Clara Briand",
-            "Mike Twain"
-        ],
-
-        "year":2026,
-
-        "type":"preprint"
-
-    }
-
+    "notes": []
+  },
+  {
+    "title": "The genesis sequence, tree records and endofunctions",
+    "year": 2026,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Enrica Duchi",
+      "Adrián Lillo",
+      "Pablo Puerto",
+      "Stefan Trandafir"
+    ],
+    "venue": "Full version:",
+    "description": "dedicated to Neil Sloane",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2601.07938",
+      "eptcs": "https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?GASCom2026.11",
+      "gascom 2026": "https://gascom2026.dista.uninsubria.it"
+    },
+    "notes": [
+      "Arxiv",
+      ".",
+      "Extended abstract:",
+      "EPTCS",
+      "Work presented at",
+      "GasCOM 2026",
+      ", Italia."
+    ]
+  },
+  {
+    "title": "On the enumeration of records of rooted trees and rooted forests",
+    "year": 2025,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Adrián Lillo",
+      "Stefan Trandafir."
+    ],
+    "venue": "Arxiv",
+    "description": "",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2510.12536"
+    },
+    "notes": []
+  },
+  {
+    "title": "On Weary Drivers, Records of Trees, and Parking Functions",
+    "year": 2025,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Adrián Lillo",
+      "Stefan Trandafir."
+    ],
+    "venue": "Arxiv",
+    "description": "",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2506.22145"
+    },
+    "notes": []
+  },
+  {
+    "title": "Non-intersecting Paths and the Determinant of the Distance Matrix of a Tree",
+    "year": 2024,
+    "type": "conference",
+    "authors": [
+      "Mercedes Rosas",
+      "Emmanuel Briand",
+      "Luis Esquivias-Quintero",
+      "Álvaro Gutiérrez",
+      "Adrián Lillo."
+    ],
+    "venue": "Full version:",
+    "description": "",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2407.01227",
+      "slc": "https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2024/FPSAC2024",
+      "fpsac’24: bochum (germany)": "https://fpsac.org/confs/fpsac-2024/"
+    },
+    "notes": [
+      "Arxiv",
+      "Extended abstract:",
+      "SLC",
+      "Work presented at",
+      "FPSAC’24: Bochum (Germany)",
+      "."
+    ]
+  },
+  {
+    "title": "All linear symmetries of the tensor multiplicities of SU(3)",
+    "year": 2024,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Emmanuel Briand",
+      "Stefan Trandafir"
+    ],
+    "venue": "Journal of Physics A: Mathematical and Theoretical. Vol. 57,1",
+    "description": "",
+    "links": {
+      "jop-a": "https://iopscience.iop.org/article/10.1088/1751-8121/ad0dc7",
+      "arxiv": "https://arxiv.org/abs/2305.08188"
+    },
+    "notes": [
+      "JoP-A",
+      "and",
+      "Arxiv"
+    ]
+  },
+  {
+    "title": "Partial symmetries of iterated plethysms",
+    "year": 2023,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Álvaro Gutiérrez Cáceres"
+    ],
+    "venue": "Annals of Combinatorics. Volume 27, issue 3, September",
+    "description": "",
+    "links": {
+      "ac": "https://link.springer.com/article/10.1007/s00026-023-00652-4",
+      "arxiv": "https://arxiv.org/abs/2201.00240"
+    },
+    "notes": [
+      "AC",
+      "and",
+      "Arxiv"
+    ]
+  },
+  {
+    "title": "Necessary conditions for the positivity of Littlewood-Richardson and plethystic coefficients",
+    "year": 2023,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Álvaro Gutiérrez Cáceres"
+    ],
+    "venue": "Comptes Rendus Mathematiques, Volume 361",
+    "description": "",
+    "links": {
+      "cr": "https://comptes-rendus.academie-sciences.fr/mathematique/articles/10.5802/crmath.468/",
+      "arxiv": "https://arxiv.org/abs/2109.11378"
+    },
+    "notes": [
+      "CR",
+      "and",
+      "Arxiv"
+    ]
+  },
+  {
+    "title": "Vector partition functions and Kronecker coefficients",
+    "year": 2021,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Marni Mishna",
+      "Sheila Sundaram"
+    ],
+    "venue": "Journal of Physics A 54, no. 20, Paper No. 205204, 29 pp.",
+    "description": "",
+    "links": {
+      "jop-a": "https://iopscience.iop.org/article/10.1088/1751-8121/abf45b",
+      "arxiv": "https://arxiv.org/abs/1811.10015"
+    },
+    "notes": [
+      "JoP-A",
+      "and",
+      "Arxiv"
+    ]
+  },
+  {
+    "title": "Normally ordered forms of powers of differential operators and their combinatorics",
+    "year": 2020,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Emmanuel Briand",
+      "Samuel Lopes"
+    ],
+    "venue": "Journal of Pure and Applied Algebra. vol. 224(8) article num. 106312",
+    "description": "",
+    "links": {
+      "jpaa": "https://www.sciencedirect.com/science/article/pii/S0022404920300098",
+      "arxiv": "https://arxiv.org/abs/1811.00857"
+    },
+    "notes": [
+      "JPAA",
+      "and",
+      "Arxiv"
+    ]
+  },
+  {
+    "title": "Schur generating functions and the asymptotics of structural constants from combinatorial representation theory",
+    "year": 2020,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Emmanuel Briand"
+    ],
+    "venue": "Oberwolfach Reports - Volume 17, Issue 1, pp. 517–568.",
+    "description": "",
+    "links": {
+      "mfo": "https://publications.mfo.de/bitstream/handle/mfo/3732/OWR_2020_09.pdf",
+      "mathematisches forschungsinstitut oberwolfach": "https://publications.mfo.de/handle/mfo/3732"
+    },
+    "notes": [
+      "MFO",
+      "Work presented at",
+      "Mathematisches Forschungsinstitut Oberwolfach",
+      ",",
+      "Workshop: Kronecker, Plethysm, and Sylow Branching Coefficients and their Applications to Complexity Theory"
+    ]
+  },
+  {
+    "title": "The 144 symmetries of the Littlewood-Richardson coefficients of $SL_3$",
+    "year": 2020,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Emmanuel Briand"
+    ],
+    "venue": "Arxiv",
+    "description": "",
+    "links": {
+      "arxiv": "http://arxiv.org/abs/2004.04995"
+    },
+    "notes": []
+  },
+  {
+    "title": "La historia del proyecto El Alﬁl Matemático",
+    "year": 2020,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas"
+    ],
+    "venue": "Espacio Matemático Vol. 1 (No. 2) 2020, pp. 129-139.",
+    "description": "",
+    "links": {
+      "us": "/Alfil-revista.pdf"
+    },
+    "notes": [
+      "US"
+    ]
+  },
+  {
+    "title": "A comment of the combinatorics of the vertex operator $\\Gamma {(t|X)}$",
+    "year": 2019,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas"
+    ],
+    "venue": "Rocky Mountain Journal of Mathematics, Volume 49, Number 7, 2281-2295",
+    "description": "",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/1701.02516"
+    },
+    "notes": [
+      "Arxiv"
+    ]
+  },
+  {
+    "title": "Commutation and normal ordering for operators on symmetric functions",
+    "year": 2019,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Emmanuel Briand",
+      "Peter McNamara",
+      "Rosa Orellana",
+      "dedicated to Ira Gessel"
+    ],
+    "venue": "Séminaire Lotharingien de Combinatoire 80, Article B80d",
+    "description": "",
+    "links": {
+      "slc": "https://www.mat.univie.ac.at/~slc/wpapers/s80brianmcna.pdf",
+      "arxiv": "https://arxiv.org/abs/1509.02581"
+    },
+    "notes": [
+      "SLC",
+      "and",
+      "ArXiv"
+    ]
+  },
+  {
+    "title": "On the growth of Kronecker coefficients",
+    "year": 2017,
+    "type": "conference",
+    "authors": [
+      "Mercedes Rosas",
+      "Emmanuel Briand",
+      "Rattan",
+      "Amarpreet"
+    ],
+    "venue": "Sém. Lothar. Combin. 78B, Art. 70, 12 pp.",
+    "description": "",
+    "links": {
+      "extended abstract": "https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2017/",
+      "arxiv": "https://arxiv.org/abs/1611.07348",
+      "fpsac’17: london (uk)": "https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2017/"
+    },
+    "notes": [
+      "Extended abstract",
+      ",",
+      "Extended version",
+      "Arxiv",
+      ", Appendices,",
+      "Arxiv",
+      "Work presented at",
+      "FPSAC’17: London (UK)",
+      "."
+    ]
+  },
+  {
+    "title": "Combinatorics on a family of reduced Kronecker coefficients",
+    "year": 2015,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Laura Colmenarejo"
+    ],
+    "venue": "Comptes Rendus Mathématique, Académie des Sciences, Paris",
+    "description": "",
+    "links": {
+      "cr": "https://comptes-rendus.academie-sciences.fr/mathematique/articles/10.1016/j.crma.2015.07.012/",
+      "arxiv": "https://arxiv.org/abs/1506.02829"
+    },
+    "notes": [
+      "CR",
+      "Arxiv"
+    ]
+  },
+  {
+    "title": "Rectangular Symmetries for coefficients of symmetric functions",
+    "year": 2015,
+    "type": "conference",
+    "authors": [
+      "Mercedes Rosas",
+      "E. Briand",
+      "R. Orellana"
+    ],
+    "venue": "Electronic J. of Combinatorics, vol. 22, 3",
+    "description": "",
+    "links": {
+      "ejc": "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v22i3p15",
+      "arxiv": "https://arxiv.org/abs/1410.8017",
+      "extended abstract": "https://dmtcs.episciences.org/volume/view/id/285",
+      "fpsac’15: daejeon (korea)": "https://fpsac.org/confs/fpsac-2015/"
+    },
+    "notes": [
+      "EJC",
+      "ArXiv",
+      "and",
+      "extended abstract",
+      "Work presented at",
+      "FPSAC’15: Daejeon (Korea)"
+    ]
+  },
+  {
+    "title": "Tres lecciones en combinatoria algebraica, I. Matrices totalmente negativas y funciones simétricas",
+    "year": 2014,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Federico Ardila",
+      "Emerson León",
+      "Mark Skandera"
+    ],
+    "venue": "universo.math, v.1.",
+    "description": "",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/1301.3987",
+      "ecco 2003": "https://fardila.com/SFSUColombia/ecco.html"
+    },
+    "notes": [
+      "ArXiV",
+      "Primer Encuentro Colombiano de Combinatoria,",
+      "ECCO 2003",
+      "."
+    ]
+  },
+  {
+    "title": "Tres lecciones en combinatoria algebraica, II. Funciones simétricas y teoría de representaciones",
+    "year": 2014,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Federico Ardila",
+      "Emerson León",
+      "Mark Skandera"
+    ],
+    "venue": "universo.math, v.2.",
+    "description": "",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/1301.3988",
+      "ecco 2003": "https://fardila.com/SFSUColombia/ecco.html"
+    },
+    "notes": [
+      "ArXiV",
+      "Primer Encuentro Colombiano de Combinatoria,",
+      "ECCO 2003",
+      "."
+    ]
+  },
+  {
+    "title": "Tres lecciones en combinatoria algebraica, III. Arreglos de hiperplanos",
+    "year": 2014,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Ardila",
+      "León",
+      "Skandera"
+    ],
+    "venue": "universo.math, v 3.",
+    "description": "",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/1301.3989",
+      "ecco 2003": "https://fardila.com/SFSUColombia/ecco.html"
+    },
+    "notes": [
+      "ArXiV",
+      "Primer Encuentro Colombiano de Combinatoria,",
+      "ECCO 2003",
+      "."
+    ]
+  },
+  {
+    "title": "The stability of the Kronecker product of Schur functions",
+    "year": 2011,
+    "type": "conference",
+    "authors": [
+      "Mercedes Rosas",
+      "Emmanuel Briand",
+      "Rosa Orellana"
+    ],
+    "venue": "Journal of Algebra. 331, 11-27",
+    "description": "",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/0907.4652",
+      "extended abstart": "https://dmtcs.episciences.org/volume/view/id/259",
+      "fpsac’10: san francisco (usa)": "https://fpsac.org/confs/fpsac-2010/"
+    },
+    "notes": [
+      "ArXiV",
+      "and",
+      "extended abstart",
+      "Work presented at the",
+      "FPSAC’10: San Francisco (USA)",
+      ","
+    ]
+  },
+  {
+    "title": "Quasipolynomial formulas for the Kronecker coefficients indexed by two two-row shapes",
+    "year": 2010,
+    "type": "conference",
+    "authors": [
+      "Mercedes Rosas",
+      "Emmanuel Briand",
+      "Rosa Orellana"
+    ],
+    "venue": "Discrete Mathematics and Theoretical Computer Science",
+    "description": "",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/0812.0861",
+      "extended abstart": "https://dmtcs.episciences.org/volume/view/id/256",
+      "fpsac’09: linz (austria)": "https://fpsac.org/confs/fpsac-2009/"
+    },
+    "notes": [
+      "ArXiV",
+      "and",
+      "extended abstart",
+      "Work presented at the",
+      "FPSAC’09: Linz (Austria)"
+    ]
+  },
+  {
+    "title": "Reduced Kronecker coefficients and counter-examples to Mulmuley’s saturation conjecture SH",
+    "year": 2009,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Emmanuel Briand",
+      "Rosa Orellana. Includes an appendix written by professor"
+    ],
+    "venue": "Ketan Mulmuley",
+    "description": "",
+    "links": {
+      "ketan mulmuley": "https://cs.uchicago.edu/people/ketan-mulmuley/",
+      "arxiv": "https://arxiv.org/abs/0810.3163"
+    },
+    "notes": [
+      "Computational Complexity, Volume 18. 4",
+      "Arxiv"
+    ]
+  },
+  {
+    "title": "Milne’s volume function and vector symmetric polynomials",
+    "year": 2009,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Emmanuel Briand"
+    ],
+    "venue": "Journal of Symbolic Computation, Volume 44, Issue 5, Pages 583-590",
+    "description": "",
+    "links": {
+      "idus": "https://idus.us.es/handle/11441/41692"
+    },
+    "notes": [
+      "IdUS"
+    ]
+  },
+  {
+    "title": "The defining ideals of conjugacy classes of nilpotent matrices and a conjecture of Weyman,  (2008)",
+    "year": 2008,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Riccardo Biagioli",
+      "Sara Faridi\\"
+    ],
+    "venue": "International Math. Research Notes, IMRN, Art. ID rnn117",
+    "description": "",
+    "links": {
+      "imrn": "https://academic.oup.com/imrn/article-abstract/doi/10.1093/imrn/rnn117/713101?redirectedFrom=fulltext",
+      "arxiv": "https://arxiv.org/abs/0803.0658"
+    },
+    "notes": [
+      "IMRN",
+      "and",
+      "ArXiV"
+    ]
+  },
+  {
+    "title": "On the $S_n$-module structure of the noncommutative harmonics",
+    "year": 2008,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "E. Briand",
+      "M. Zabrocki"
+    ],
+    "venue": "Journal of Combinatorial Theory, Series A. Vol 115, Issue 6",
+    "description": "",
+    "links": {
+      "jcta": "https://www.sciencedirect.com/science/article/pii/S0097316507001483",
+      "idus": "https://idus.us.es/handle/11441/41690"
+    },
+    "notes": [
+      "JCTA",
+      "and",
+      "IdUS"
+    ]
+  },
+  {
+    "title": "Invariants and coinvariants of the symmetric group in noncommutative variables",
+    "year": 2008,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Nantel Bergeron",
+      "Christophe Reutenauer",
+      "Mike Zabrocki"
+    ],
+    "venue": "Canadian Journal of Mathematics,  266–296",
+    "description": "",
+    "links": {
+      "cjm": "https://www.cambridge.org/core/journals/canadian-journal-of-mathematics/article/invariants-and-coinvariants-of-the-symmetric-group-in-noncommuting-variables/B5DB3E61A9C8AAF9D56420336B45D674",
+      "arxiv": "https://arxiv.org/abs/math/0502082"
+    },
+    "notes": [
+      "CJM",
+      "and",
+      "ArXiV"
+    ]
+  },
+  {
+    "title": "Resolutions of De Concini-Procesi ideals indexed by hooks",
+    "year": 2007,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Riccardo Biagioli",
+      "Sara Faridi"
+    ],
+    "venue": "Communications in Algebra, 35 , no. 12, 3875–3891",
+    "description": "",
+    "links": {
+      "ca": "https://www.tandfonline.com/doi/abs/10.1080/00927870701511954",
+      "arxiv": "https://arxiv.org/abs/math/0507611"
+    },
+    "notes": [
+      "CA",
+      "and",
+      "ArXiV"
+    ]
+  },
+  {
+    "title": "Grothedieck bialgebras, partition lattices, and symmetric functions in noncommutative variables",
+    "year": 2006,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Nantel Bergeron",
+      "Christophe Hohlweg",
+      "Mike Zabrocki"
+    ],
+    "venue": "Electronic J. of Combinatorics 13, no. 1, 19 pp",
+    "description": "",
+    "links": {
+      "ejc": "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v13i1r75",
+      "idus": "https://idus.us.es/handle/11441/41182"
+    },
+    "notes": [
+      "EJC",
+      "and",
+      "IdUS"
+    ]
+  },
+  {
+    "title": "Inequalities between Littlewood-Richardson coefficients",
+    "year": 2006,
+    "type": "conference",
+    "authors": [
+      "Mercedes Rosas",
+      "François Bergeron",
+      "Riccardo Biagioli"
+    ],
+    "venue": "Journal of Combinatorial Theory, Series A. Volume 113, Issue 4",
+    "description": "",
+    "links": {
+      "jcta": "https://www.sciencedirect.com/science/article/pii/S0097316505000956",
+      "arxiv": "https://arxiv.org/abs/math/0403541",
+      "fpsac’04: vancouver (canada)": "https://fpsac.org/confs/fpsac-2004/"
+    },
+    "notes": [
+      "JCTA",
+      "and",
+      "ArXiV",
+      "Work presente at the",
+      "FPSAC’04: Vancouver (Canada)",
+      "."
+    ]
+  },
+  {
+    "title": "Symmetric functions in noncommuting variables",
+    "year": 2006,
+    "type": "conference",
+    "authors": [
+      "Mercedes Rosas",
+      "Bruce Sagan\\"
+    ],
+    "venue": "Transactions of the American Mathematical Society 358, no. 1, 215–232",
+    "description": "",
+    "links": {
+      "tams": "https://www.ams.org/journals/tran/2006-358-01/S0002-9947-04-03623-2/",
+      "arxiv": "https://arxiv.org/abs/math/0208168",
+      "fpsac’2003: linköping (sweden)": "https://fpsac.org/confs/fpsac-2003/"
+    },
+    "notes": [
+      "TAMS",
+      "and",
+      "ArXiV",
+      "Work  presented at the",
+      "FPSAC’2003: Linköping (Sweden)",
+      "."
+    ]
+  },
+  {
+    "title": "An overview of the plethystic Hopf algebra of MacMahon symmetric functions",
+    "year": 2003,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Gian-Carlo Rota",
+      "Joel Stein"
+    ],
+    "venue": "Annals of combinatorics, 6, pp. 195-207",
+    "description": "",
+    "links": {
+      "idus": "https://idus.us.es/handle/11441/46818"
+    },
+    "notes": [
+      "IdUS"
+    ]
+  },
+  {
+    "title": "Los números de (Euler)-Catalan",
+    "year": 2003,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas"
+    ],
+    "venue": "Boletín de la Asociación Matemática Venezolana, Vol. X",
+    "description": "",
+    "links": {
+      "bamv": "https://www.emis.de/journals/BAMV/conten/vol10/catalan.pdf"
+    },
+    "notes": [
+      "BAMV"
+    ]
+  },
+  {
+    "title": "Sumando a la derivada de la serie geométrica",
+    "year": 2003,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas",
+      "Lyonell Boulton Boletín de la Asociación"
+    ],
+    "venue": "Matemática Venezolana, Vol. X)",
+    "description": "",
+    "links": {
+      "bamv": "https://www.emis.de/journals/BAMV/conten/vol10/boultonrosas.pdf"
+    },
+    "notes": [
+      "BAMV"
+    ]
+  },
+  {
+    "title": "Specializations of MacMahon symmetric functions and the polynomial algebra",
+    "year": 2002,
+    "type": "journal",
+    "authors": [
+      "Mercedes Rosas"
+    ],
+    "venue": "Discrete Mathematics, 246 (1-3) No. 2, pp. 285-293",
+    "description": "",
+    "links": {
+      "dm": "https://www.sciencedirect.com/science/article/pii/S0012365X01002631",
+      "idus": "https://idus.us.es/handle/11441/41678"
+    },
+    "notes": [
+      "DM",
+      "and",
+      "IdUS"
+    ]
+  },
+  {
+    "title": "The Kronecker product of Schur functions indexed by two-rwo shapes or hook shapes",
+    "year": 2001,
+    "type": "conference",
+    "authors": [
+      "Mercedes Rosas"
+    ],
+    "venue": "Journal of Algebraic Combinatorics 14 (2), pp. 153-173",
+    "description": "",
+    "links": {
+      "jofac": "https://link.springer.com/article/10.1023/A:1011942029902",
+      "arxiv": "https://arxiv.org/abs/math/0001084",
+      "extended abstract": "https://link.springer.com/chapter/10.1007/978-3-662-04166-6_31",
+      "fpsac’00: moscow (rusia)": "https://fpsac.org/confs/fpsac-2000/"
+    },
+    "notes": [
+      "JofAC",
+      "and",
+      "ArXiV",
+      ".",
+      "Extended abstract",
+      ".",
+      "Work  presented at the",
+      "FPSAC’00: Moscow (Rusia)",
+      "."
+    ]
+  },
+  {
+    "title": "MacMahon symmetric functions, the partition lattice, and Young tableaux",
+    "year": 2001,
+    "type": "conference",
+    "authors": [
+      "Mercedes Rosas"
+    ],
+    "venue": "Journal of Combinatorial Theory. Series A. 96 No. 2, pp. 326-340",
+    "description": "",
+    "links": {
+      "jcta": "https://www.sciencedirect.com/science/article/pii/S0097316501931863?via%3Dihub",
+      "idus": "https://idus.us.es/handle/11441/41678",
+      "fpsac’1999: barcelona (spain)": "https://fpsac.org/confs/fpsac-1999/"
+    },
+    "notes": [
+      "JCTA",
+      "and",
+      "IdUS",
+      "Work  presented at the",
+      "FPSAC’1999: Barcelona (Spain)"
+    ]
+  }
 ]
