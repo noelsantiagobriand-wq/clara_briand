@@ -1,1 +1,22 @@
+[
+    {
 
+        "name":"John Smith",
+
+        "institution":"Oxford",
+
+        "website":"...",
+
+        "photo":"..."
+
+    },
+
+    {
+
+        "name":"Mike Twain",
+
+        "institution":"MIT"
+
+    }
+
+]
