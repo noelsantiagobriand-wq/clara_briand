@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Collaborators</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1 id="name"></h1>
+
+    <p id="subtitle"></p>
+
+</header>
+
+<nav>
+
+    <ul>
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="papers.html">Papers</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="collaborators.html" class="active">Collaborators</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+
+</nav>
+
+<main>
+
+    <h2>Collaborators</h2>
+
+    <p>
+        This page lists research collaborators and coauthors.
+        Use the search box to quickly find a collaborator.
+    </p>
+
+    <div class="collaborator-controls">
+
+        <input
+            type="text"
+            id="collaboratorSearch"
+            placeholder="Search collaborators...">
+
+    </div>
+
+    <div class="stats-grid">
+
+        <div class="stat-card">
+
+            <div class="stat-number" id="collaboratorCount">0</div>
+
+            <div class="stat-label">Collaborators</div>
+
+        </div>
+
+        <div class="stat-card">
+
+            <div class="stat-number" id="institutionCount">0</div>
+
+            <div class="stat-label">Institutions</div>
+
+        </div>
+
+        <div class="stat-card">
+
+            <div class="stat-number" id="countryCount">0</div>
+
+            <div class="stat-label">Countries</div>
+
+        </div>
+
+    </div>
+
+    <div class="collaborator-count">
+
+        Showing
+        <span id="visibleCollaboratorCount">0</span>
+        collaborators
+
+    </div>
+
+    <div id="collaboratorsContainer">
+
+        <!-- Generated automatically by collaborators.js -->
+
+    </div>
+
+</main>
+
+<footer>
+
+    <p id="footerText"></p>
+
+</footer>
+
+<script src="js/profile.js"></script>
+<script src="js/collaborators.js"></script>
+
+</body>
+
+</html>
