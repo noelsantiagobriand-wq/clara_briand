@@ -1,1 +1,25 @@
+{
+    "name": "Clara Briand",
+    "title": "Professor of Mathematics",
 
+    "department": "Department of Mathematics",
+
+    "university": "University XYZ",
+
+    "email": "clara.briand@xyz.edu",
+
+    "office": "Room 314",
+
+    "photo": "images/ninja.jpg",
+
+    "orcid": "...",
+
+    "scholar": "...",
+
+    "github": "...",
+
+    "research": [
+        "Algebraic Geometry for cats and kittens",
+        "Algebraic Geometry for dogs and doggies",
+    ]
+}
