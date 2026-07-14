@@ -45,3 +45,20 @@ async function loadProfile() {
 }
 
 loadProfile();
+
+const researchList = document.getElementById("researchList");
+
+profile.research.forEach(area => {
+
+    const card = document.createElement("div");
+
+    card.className = "research-item";
+
+    card.innerHTML = `
+        <h3>${area.title}</h3>
+        <p>${area.description}</p>
+    `;
+
+    researchList.appendChild(card);
+
+});
