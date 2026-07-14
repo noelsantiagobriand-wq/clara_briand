@@ -3,8 +3,6 @@ async function loadProfile() {
     const response = await fetch("data/profile.json");
     const profile = await response.json();
 
-    // ---------- Helper functions ----------
-
     function setText(id, value) {
 
         const element = document.getElementById(id);
