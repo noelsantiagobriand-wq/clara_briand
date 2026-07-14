@@ -12,20 +12,18 @@
 
     "photo": "images/ninja.jpg",
     
-    "welcomeText":"Welcome to my website!",
-
     "orcid": "...",
 
     "scholar": "...",
 
     "research": [
-    {
-        "title": "Algebraic Geometry for cats and kittens",
-        "description": "Study of what shapes cats have."
-    },
-    {
-        "title": "Algebraic Geometry for dogs and doggies",
-        "description": "Study of what shapes dogs have."
-    }
+        {
+            "title": "Algebraic Geometry for cats and kittens",
+            "description": "Study of what shapes cats have."
+        },
+        {
+            "title": "Algebraic Geometry for dogs and doggies",
+            "description": "Study of what shapes dogs have."
+        }
     ]
 }
