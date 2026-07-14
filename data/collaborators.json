@@ -1,22 +1,24 @@
 [
     {
-
-        "name":"John Smith",
-
-        "institution":"Oxford",
-
-        "website":"...",
-
-        "photo":"..."
-
+        "name": "John Smith",
+        "institution": "University of Oxford",
+        "country": "United Kingdom",
+        "website": "https://example.com",
+        "orcid": "https://orcid.org/0000-0001-0000-0000",
+        "research": [
+            "Algebraic Geometry",
+            "Number Theory"
+        ]
     },
 
     {
-
-        "name":"Mike Twain",
-
-        "institution":"MIT"
-
+        "name": "Alice Cooper",
+        "institution": "MIT",
+        "country": "USA",
+        "website": "https://example.com",
+        "orcid": "",
+        "research": [
+            "Combinatorics"
+        ]
     }
-
 ]
