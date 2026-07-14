@@ -276,12 +276,12 @@ section h2 {
 .collaborator-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .collaborator-card {
     background: white;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 3px 8px rgba(0,0,0,0.08);
