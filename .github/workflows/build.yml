@@ -1,0 +1,32 @@
+name: Build sitemap
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+
+  sitemap:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - name: Read URL from site.json
+
+        run: |
+
+          URL=$(python -c "import json;print(json.load(open('data/site.json'))['baseUrl'])")
+
+          sed "s|{{BASE_URL}}|$URL|g" sitemap.template.xml > sitemap.xml
+
+      - name: Commit sitemap
+
+        uses: stefanzweifel/git-auto-commit-action@v5
+
+        with:
+
+          commit_message: Update sitemap
