@@ -28,12 +28,12 @@
 }
 
 .sidebar img{
-    width:180px;
-    height:180px;
+    width: 100%;
+    height: auto;
 
-    object-fit:cover;
+    object-fit: contain;
 
-    border-radius:50%;
+    border-radius:8px;
 
     display:block;
 
