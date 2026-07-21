@@ -1,107 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="name"> </title>
+
+    <title id="name">Home</title>
+
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
 
 <header>
+
     <h1 id="name"></h1>
+
     <p id="subtitle"></p>
+
 </header>
 
 <nav>
+
     <ul>
+
         <li><a href="papers.html">Papers</a></li>
         <li><a href="collaborators.html">Collaborators</a></li>
         <li><a href="contact.html">Contact</a></li>
+
     </ul>
+
 </nav>
 
 <main>
 
-<div class="home-layout">
+    <!-- ========================= -->
+    <!-- Top Profile Panel -->
+    <!-- ========================= -->
 
-    <aside class="sidebar">
+    <section class="profile-panel">
 
-        <img id="sidebarPhoto" alt="name">
+        <div class="home-layout">
 
-        <h2 id="sidebarName"></h2>
+            <!-- Left : Photo -->
 
-        <h3 id="sidebarTitle"></h3>
-<div class="info-box">
+            <aside class="sidebar">
 
-    <h2>Personal Information</h2>
+                <img id="sidebarPhoto" alt="Profile photo">
 
-    <table class="info-table">
+            </aside>
 
-        <tr>
-            <th>Position</th>
-            <td id="sidebarTitle"></td>
-        </tr>
+            <!-- Right : Information -->
 
-        <tr>
-            <th>Department</th>
-            <td id="sidebarDepartment"></td>
-        </tr>
+            <div class="content">
 
-        <tr>
-            <th>University</th>
-            <td id="sidebarUniversity"></td>
-        </tr>
+                <div class="info-box">
 
-        <tr>
-            <th>Office</th>
-            <td id="sidebarOffice"></td>
-        </tr>
+                    <h2>Personal Information</h2>
 
-        <tr>
-            <th>Email</th>
-            <td id="sidebarEmail"></td>
-        </tr>
+                    <table class="info-table">
 
-        <tr>
-            <th>ORCID</th>
-            <td id="orcid"></td>
-        </tr>
+                        <tr>
+                            <th>Position</th>
+                            <td id="sidebarTitle"></td>
+                        </tr>
 
-        <tr>
-            <th>Google Scholar</th>
-            <td id="scholar"></td>
-        </tr>
+                        <tr>
+                            <th>Department</th>
+                            <td id="sidebarDepartment"></td>
+                        </tr>
 
-    </table>
+                        <tr>
+                            <th>University</th>
+                            <td id="sidebarUniversity"></td>
+                        </tr>
 
-</div>
-    </aside>
+                        <tr>
+                            <th>Office</th>
+                            <td id="sidebarOffice"></td>
+                        </tr>
 
-    <div class="content">
+                        <tr>
+                            <th>Email</th>
+                            <td id="sidebarEmail"></td>
+                        </tr>
 
-        <section>
+                        <tr>
+                            <th>ORCID</th>
+                            <td id="orcid"></td>
+                        </tr>
 
-            <h2>Welcome</h2>
+                        <tr>
+                            <th>Google Scholar</th>
+                            <td id="scholar"></td>
+                        </tr>
 
-            <p>Welcome to my website!</p>
+                        <tr>
+                            <th>GitHub</th>
+                            <td id="github"></td>
+                        </tr>
 
-        </section>
-        
-        <section>
-            <h2>Research Interests</h2>
-            <div id="researchList" class="research-list"></div>
-        </section>
-    </div>
+                    </table>
 
-</div>
+                    <hr>
+
+                    <h2>Research Interests</h2>
+
+                    <div
+                        id="researchList"
+                        class="research-list">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- Welcome -->
+    <!-- ========================= -->
+
+    <section class="welcome-section">
+
+        <h2>Welcome</h2>
+
+        <p id="welcomeText"></p>
+
+    </section>
 
 </main>
-    
+
 <footer>
 
-    <p> <strong id="footerName"></strong></p>
+    <p>
+
+        <strong id="footerName"></strong>
+
+    </p>
 
     <p id="department"></p>
 
@@ -112,6 +153,9 @@
     <p id="email"></p>
 
 </footer>
+
 <script src="js/profile.js"></script>
+
 </body>
+
 </html>
